@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+</head>
+<body>
+    <div>
+        <h1>HTML Project with iframes</h1>
+    </div>
+    <div>
+        <h2>Local content</h2>
+        <article>
+            <iframe
+              sandbox
+              srcdoc="<h3>Welcome to Geekster</h3>
+              <p>This content is displayed from a local HTML file using an iframe.</p>
+              <p>Similarly you can craete different sizes of windows using iframes in HTML</p>
+              "
+          ></iframe>
+        </article>
+    </div>
+    <div>
+        <h2>External Website</h2>
+        <iframe src="https://www.geekster.in/" frameborder="0" height="315px" width="560px"></iframe>
+    </div>
+    <div>
+        <h2>YouTube Video</h2>
+        <iframe width="718" height="404" src="https://www.youtube.com/embed/H335Vdkmdhk" title="From Mechanical Engineer to Tech Success | Inspiring Journey of Geekster Alumni |Multiple Job Offers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
